@@ -37,3 +37,7 @@ connect hr/hr
 ```
 select tname from tab;
 ```
+
+## oracle database를 이클립스에서 사용하기
+
+이클립스의 data source explorer뷰를 선택하고 jdbc 드라이버 ojdbc6.jar를 jar list에서 설정해주고 db연결정보를 입력한다.
