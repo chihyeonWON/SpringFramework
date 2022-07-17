@@ -14,3 +14,4 @@ VisualSVN Sever를 http://subversion.apache.org/packages.html 에서 설치해�
 ## 오라클 설치 및 설정
 
 오라클 설치를 하기 전 eclipse-servers에서 tomcat v8.0 sever를 우클릭 후 start 실행해줘서 8080포트를 선점해줘야 오라클 설치 과정에서 http port를 8081로 변경하는 창이 나온다.
+https://www.oracle.com/database/technologies/xe-prior-release-downloads.html oracle 11g XE는 여기서 다운로드한다.
