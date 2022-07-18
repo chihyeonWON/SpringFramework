@@ -71,3 +71,13 @@ eGovFrame -> Design -> New Class Diagram 메뉴를 통해 클래스 다이어그
 
 ### ER 다이어그램 작성 방법
 eGovFrame -> Design -> New ER Diagram 메뉴를 통해 ER 다이어그램을 작성할 수 있다.
+
+## 표준프레임워크 웹 프로젝트 실습
+표준프레임워크에서 기볹거으로 만들어지는 프로젝트는 메이븐 프로젝트로 생성된다.
+File -> New -> eGovFrame Web Project를 선택하여 웹프로젝트를 생성한다.
+Project Name: egov_web Target Runtime: Apache Tomcat v8.0 Group Id: com.rubypaper
+
+프로젝트를 선택하고 Run As -> Maven Install을 실행한다. 이 명령어는 소스 파일과 테스트 파일 등을 컴파일하고 pom.xml 파일에서 설정한 대로 패키징해서 산출물을 만드는 명렁어다선Build에 성공하면 target 디렉터리에 다양한 파일들이 생성되고 프로젝트 마우스 오른쪽 클릭 후 Run As -> Run on Sever를 실행하면 간단한 기능의 게시판을 구현하는 템플릿 웹 프로젝트가 다음과 같이 생성된다.
+
+![간단한기능의게시판](https://user-images.githubusercontent.com/58906858/179478605-804da533-beb8-4660-b447-f809c82e135d.png)
+
