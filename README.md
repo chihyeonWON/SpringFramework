@@ -58,3 +58,16 @@ test.sql 파일에 select * from EMPLOYEES 테이블명이 EMPLOYEES를 선택�
 
 Data Source Exploere -> Oracle11g -> xe -> Schemas -> HR -> Tables 를 보면 많은 테이블이 나오는데 그 중 EMPLOYEES를 선택하고 마우스 오른쪽 클릭 후 Data -> Edit을 누르면
 해당 테이블의 데이터의 다양한 정보를 확인할 수 있습니다.  
+
+## 표준 프레임워크 기반의 프로젝트를 생성하고 다양한 다이어그램의 사용법 익히기
+
+표준프레임워크 기반의 프로젝트를 생성하기 위해서는 File -> New -> Other -> eGovFrame를 선택한 후 나오는 Wizard를 사용한다.
+
+# 유스케이스 다이어그램 작성 방법
+eGovFrame -> Analysis -> New Usecase Diagram 메뉴를 통해 유스케이스 다이어그램을 작성할 수 있다.
+
+# 클래스 다이어그램 작성 방법
+eGovFrame -> Design -> New Class Diagram 메뉴를 통해 클래스 다이어그램을 작성할 수 있다.
+
+# ER 다이어그램 작성 방법
+eGovFrame -> Design -> New ER Diagram 메뉴를 통해 ER 다이어그램을 작성할 수 있다.
