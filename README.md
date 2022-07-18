@@ -63,11 +63,11 @@ Data Source Exploere -> Oracle11g -> xe -> Schemas -> HR -> Tables 를 보면 �
 
 표준프레임워크 기반의 프로젝트를 생성하기 위해서는 File -> New -> Other -> eGovFrame를 선택한 후 나오는 Wizard를 사용한다.
 
-# 유스케이스 다이어그램 작성 방법
+### 유스케이스 다이어그램 작성 방법
 eGovFrame -> Analysis -> New Usecase Diagram 메뉴를 통해 유스케이스 다이어그램을 작성할 수 있다.
 
-# 클래스 다이어그램 작성 방법
+### 클래스 다이어그램 작성 방법
 eGovFrame -> Design -> New Class Diagram 메뉴를 통해 클래스 다이어그램을 작성할 수 있다.
 
-# ER 다이어그램 작성 방법
+### ER 다이어그램 작성 방법
 eGovFrame -> Design -> New ER Diagram 메뉴를 통해 ER 다이어그램을 작성할 수 있다.
