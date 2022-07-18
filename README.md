@@ -51,3 +51,10 @@ WebContent 오른쪽 마우스 New -> Other -> SQL Development -> SQL File을 �
 SQL FILE을 생성한다. File name : test.sql Database server type : Oracle_11 Connection Profile name Oracle11g Database name : xe
 
 test.sql 파일에 SQL 구문을 입력할 수 있게 되었다.
+
+## 이클립스에서 SQL 테이블 데이터 확인하기
+
+test.sql 파일에 select * from EMPLOYEES 테이블명이 EMPLOYEES를 선택하는 SQL 구문을 입력하고 왼쪽마우스 Execute Selected Text를 선택하여 실행합니다.
+
+Data Source Exploere -> Oracle11g -> xe -> Schemas -> HR -> Tables 를 보면 많은 테이블이 나오는데 그 중 EMPLOYEES를 선택하고 마우스 오른쪽 클릭 후 Data -> Edit을 누르면
+해당 테이블의 데이터의 다양한 정보를 확인할 수 있습니다.  
