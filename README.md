@@ -41,3 +41,13 @@ select tname from tab;
 ## oracle database를 이클립스에서 사용하기
 
 이클립스의 data source explorer뷰를 선택하고 jdbc 드라이버 ojdbc6.jar를 jar list에서 설정해주고 db연결정보를 입력한다.
+
+## 이클립스 웹 프로젝트 with SQL 생성하기
+
+File -> New -> Dynamic Web Project 
+
+WebContent 오른쪽 마우스 New -> Other -> SQL Development -> SQL File을 선택한다.
+
+SQL FILE을 생성한다. File name : test.sql Database server type : Oracle_11 Connection Profile name Oracle11g Database name : xe
+
+test.sql 파일에 SQL 구문을 입력할 수 있게 되었다.
